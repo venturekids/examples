@@ -1,0 +1,158 @@
+/* red  */
+/* #ec576b */
+body {
+	font-family: 'Karla', sans-serif;
+}
+
+header {
+	background-image: url(images/glitter.jpg);
+}
+
+header nav {
+
+}
+
+header nav ul {
+
+}
+
+header nav ul a {
+
+}
+
+.stick {
+
+}
+
+header .stick ul a {
+
+}
+
+header .stick ul a:hover {
+
+}
+
+header .title {
+
+}
+
+header h1 {
+
+}
+
+.aboutus_section p {
+
+}
+
+.carousel-cell {
+
+}
+
+.carousel-cell img {
+
+}
+
+.hold_image {
+
+}
+.hold_image:hover .product_info {
+	opacity: 1;
+}
+.product_info {
+	opacity: 0;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  	max-width: 80%;
+  	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right:0;
+	background: rgba(0,0,0,0.7);
+	padding: 5px;
+	color:white;
+	font-size:26px;
+	text-align:center;
+	transition: all 0.3s ease-in-out;
+}
+
+.product_info h4, .product_info p {
+	margin: 0;
+}
+
+.aboutus_section {
+
+}
+
+.team {
+
+}
+
+.team .team_half {
+
+}
+
+.team .team_half img {
+
+}
+
+.team_about {
+
+}
+
+.team_about p {
+
+}
+
+.contact {
+
+}
+
+.contact h2 {
+
+}
+
+.contact h3 {
+
+}
+
+.contact .social {
+
+}
+
+.contact .social li {
+
+}
+
+.contact .social li:hover {
+
+}
+
+.contact .form {
+}
+
+.contact .form li {
+}
+
+.contact .form input {
+
+}
+
+.contact .form input:focus,
+.contact .form textarea:focus {
+}
+
+.contact .form textarea {
+
+}
+
+footer {
+
+}
+
+footer h5 {
+
+}
