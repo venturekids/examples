@@ -1,0 +1,219 @@
+body {
+	font-family: 'Karla', sans-serif;
+}
+
+header {
+	background-image: url(images/glitter.jpg);
+	min-height: 60vh;
+	background-size: cover;
+}
+
+header nav {
+	position: relative;
+	top: 205px;
+}
+
+header nav ul {
+	margin: 0;
+}
+
+header nav ul a {
+	text-decoration: none;
+	color:white;
+}
+
+.stick {
+	position: fixed;
+	z-index:10;
+	top:10px;
+}
+
+header .stick ul a {
+	color: #ec576b;
+	font-size: 20px;
+}
+
+header .stick ul a:hover {
+	font-size: 22px;
+}
+
+header .title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header h1 {
+	color: #ec576b;
+	font-size: 120px;
+	background: rgba(0,0,0,0.5);
+	padding: 10px;
+}
+
+.aboutus_section p {
+	color: #4ec5c1;
+}
+
+.carousel-cell {
+  width: 50%; /* full width */
+  height: 500px; /* height of carousel */
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.carousel-cell img {
+	max-width: 80%;
+	margin: 0 auto;
+	display: block;
+	box-shadow: 5px 5px 10px lightgrey;
+}
+
+.hold_image {
+  position: relative;
+  margin: 0 auto;
+}
+.hold_image:hover .product_info {
+	opacity: 1;
+}
+.product_info {
+	opacity: 0;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  	max-width: 80%;
+  	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right:0;
+	background: rgba(0,0,0,0.7);
+	padding: 5px;
+	color:white;
+	font-size:26px;
+	text-align:center;
+	transition: all 0.3s ease-in-out;
+}
+
+.product_info h4, .product_info p {
+	margin: 0;
+}
+
+.aboutus_section {
+	margin: 70px auto;
+	width: 75%;
+	font-size: 45px;
+}
+
+.team {
+	display: flex;
+	margin: 65px auto;
+}
+
+.team .team_half {
+	width: 50%;
+}
+
+.team .team_half img {
+	max-width: 100%;
+	display: block;
+}
+
+.team_about {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    border: 1px solid #4ec5c1;
+    margin: 50px;
+}
+
+.team_about p {
+	margin: 0;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	background: #4ec5c1;
+	padding: 40px 0;
+}
+
+.contact h2 {
+	font-size: 65px;
+	color: white;
+	margin:0;
+}
+
+.contact h3 {
+	font-size: 70px;
+	margin:0;
+	color: #e5e338;
+}
+
+.contact .social {
+	padding-left: 0;
+	list-style: none;
+	display: flex;
+}
+
+.contact .social li {
+	padding: 0 10px;
+	font-size: 24px;
+	color: white;
+	transition: all 0.3s ease-in-out;
+}
+
+.contact .social li:hover {
+	color: #e5e338;
+}
+
+.contact .form {
+	list-style: none;
+	padding-left:0;
+}
+
+.contact .form li {
+	display: flex;
+	flex-direction: column;
+	padding: 10px 0;
+	color: white;
+	font-size: 20px;
+}
+
+.contact .form input {
+	border: none;
+	background: #e5e338;
+	padding: 10px;
+	transition:all 0.3s ease-in-out;
+}
+
+.contact .form input:focus,
+.contact .form textarea:focus {
+	background: #ec576b;
+}
+
+.contact .form textarea {
+	border: none;
+	background: #e5e338;
+	padding: 10px;
+}
+
+footer {
+	background: black;
+	color: white;
+	padding: 20px 10px;
+}
+
+footer h5 {
+	margin: 0;
+}

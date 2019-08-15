@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery Animate Answer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		.goodbye {
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<p class="hello">Hello World</p>
+	<p class="goodbye">Goodbye World</p>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous">
+  </script>
+	<script type="text/javascript">
+		$(function() {
+			$('.hello').on('click', function() {
+				$('.goodbye').fadeIn(3000);
+				$('.hello').hide();
+			});
+			$('.goodbye').on('click', function() {
+				$('.goodbye').hide();
+				$('.hello').show();
+			})
+	    // Document is ready! All your code goes inside.
+	    // You only need one of these per page
+	});
+	</script>
+</body>
+</html>

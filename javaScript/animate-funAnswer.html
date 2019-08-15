@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animate CSS</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">	
+</head>
+<body>
+	<h1 class="">Animate Me</h1>
+	<button>Let the games begin</button>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script>
+  		$(function() {
+		$('button').on('click', () => {
+			console.log('hello?');
+			$('h1').removeClass('bounce animated');
+			setTimeout(function(){ 
+   				$('h1').addClass('bounce animated') 
+			}, 100);
+		})
+	}); 
+  </script>	
+</body>
+</html>

@@ -1,0 +1,68 @@
+
+/*#86D2DD*/
+/*#E1CBCA*/
+/*#65B891*/
+/*F0F7F4*/
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 , h6 {
+	font-family: 'Raleway', sans-serif;
+}
+header {
+	background: url(assets/main.jpg);
+	background-size: cover;
+	background-position: bottom;
+	height: 60vh;
+	position: relative;
+}
+
+ul {
+	display: flex;
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+
+li {
+	padding: 10px;
+}
+
+h1 {
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	font-size: 70px;
+	color:#F0F7F4;
+}
+
+section {
+	width: 90%;
+	margin: 50px auto;
+}
+
+.gallery {
+	display:flex;
+	justify-content: space-around;
+}
+
+.galleryItem {
+	width: 30%;
+}
+
+img  {
+	max-width: 100%;
+}
+
+footer {
+	padding: 20px;
+	background: #86D2DD;
+}
+
+footer p {
+	margin: 0;
+}

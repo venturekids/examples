@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Position Absolute Answer</title>
+	<!-- <meta name="viewport" content="width=device-width"> -->
+	<style>
+		.heart{
+		    position: relative;
+		    width: 100px;
+		    height: 90px;
+		    float: left;
+		}
+		.heart:before,
+		.heart:after{
+		    position: absolute;
+		    content: "";
+		    left: 50px;
+		    top: 0;
+		    width: 50px;
+		    height: 80px;
+		    background: #fc2e5a;
+		    -moz-border-radius: 50px 50px 0 0;
+		    border-radius: 50px 50px 0 0;
+            transform: rotate(-45deg);
+            transform-origin: 0 100%;
+		}
+		.heart:after{
+		    left: 0;
+            transform: rotate(45deg);
+            transform-origin :100% 100%;
+		}
+		h1 {
+			font-size: 80px;
+			font-family: sans-serif;
+			color: pink;
+			margin: 0;
+		}
+		/*styles above here are not for exercise purposes*/
+		.outer {
+			border: 10px dotted pink;
+			height: 500px;
+			width: 90%;
+			position: relative;
+		}
+		.innerOne {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+		}
+		.innerTwo {
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+		.innerThree {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+		h1 {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		body {
+			background: purple;
+		}
+		@media (max-width: 600px) {
+			body {
+				background: yellow;
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="outer">
+		<div class="innerOne">
+			<div class="heart"></div>
+		</div>
+		<div class="innerTwo">
+			<div class="heart"></div>
+		</div>
+		<div class="innerThree">
+			<div class="heart"></div>
+		</div>
+		<div class="innerFour">
+			<div class="heart"></div>
+		</div>
+		<h1>J.T. I ♥️ You</h1>
+	</div>
+</body>
+</html>
